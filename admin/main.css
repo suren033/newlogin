@@ -1,0 +1,89 @@
+.nav {
+    position: absolute;
+    top: 5%; 
+    left: 20%;
+}
+
+.nav .li {
+    float: left;
+    list-style: none;
+    padding: 0 10px;
+    font-size: 20px;    
+}
+
+.li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.conf_form, .hello_form, .button_form, .education_form, 
+.about_form, .client_form, .experience_form, .what_form, 
+.wrap_form, .skills_form, .pricing_form, .blog_form {
+    position: absolute;
+    top: 50%;
+}
+
+.conf_form {
+    left: 35%;
+    background: #000;
+}
+
+.hello_form {
+    left: 36%;
+}
+
+.button_form {
+    left: 45%;
+}
+
+.about_form, .experience_form, .education_form, .client_form {
+    left: 18%;
+}
+
+.what_form {
+    left: 28%;
+}
+
+.wrap_form {
+    left: 4%;
+}
+
+.wrap_form input {
+    width: 110px;
+}
+
+.skills_form {
+    left: 36%;
+}
+
+.pricing_form {
+    left: 1%;
+}
+
+.pricing_form input {
+    width: 100px;
+}
+
+.blog_form {
+    left: 5%;
+}
+
+.blog_form input {
+    width: 150px;
+}
+
+.conf_input {
+    padding: 8px 20px;
+    font-size: 15px;
+}
+
+.save {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    padding: 10px 30px;
+    border-color: transparent;
+    background: #a85532;
+    cursor: pointer; 
+    border-radius: 10px;
+}
